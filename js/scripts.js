@@ -1,5 +1,4 @@
 // Back End Logic
-
 var counter = function(userInput) {
 var mainArray = [];
 var newArray = [];
@@ -20,10 +19,7 @@ var newArray = [];
   return newArray;
 };// Function End
 
-
-
 // Front End
-
 $(document).ready(function() {
   $("form#main").submit(function(event) {
     var userInput = parseInt($("input#num").val());

@@ -10,16 +10,16 @@ This site demonstrates arrays and loops. The objective was to allow the user to 
 ## Specs
 
 * Numbers divisible by 3 are replaced with "ping"
-   in: 3
-   out: ping
+   Example input: 3
+   Example output: ping
 
 * Numbers divisible by 5 are replaced with "pong"
-    in: 5
-    out: pong
+    Example input: 5
+    Example output: pong
 
 * Numbers divisible by 15 are replaced with "ping-pong"
-    in: 15
-    out: ping-pong
+    Example input: 15
+    Example output: ping-pong
 
 ## Execution
 
