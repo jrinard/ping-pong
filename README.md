@@ -9,17 +9,21 @@ This site demonstrates arrays and loops. The objective was to allow the user to 
 
 ## Specs
 
-* Numbers divisible by 3 are replaced with "ping"
-   Example input: 3
-   Example output: ping
+* If the user input number divides by 3 then replace the number with "ping"
+   * Example input: 3
+   * Example output: ping
 
-* Numbers divisible by 5 are replaced with "pong"
-    Example input: 5
-    Example output: pong
+* If the user input number divides by 5 then replace the number with "pong"
+    * Example input: 5
+    * Example output: pong
 
-* Numbers divisible by 15 are replaced with "ping-pong"
-    Example input: 15
-    Example output: ping-pong
+* If the user input number divides by 15 then replace the number with "ping-pong"
+    * Example input: 15
+    * Example output: ping-pong
+
+* If the user input number does not divide by 3, 5 or 15, then just use the same number.
+   * Example input: 4
+   * Example output: 4
 
 ## Execution
 
@@ -29,18 +33,20 @@ _Specifically with Scripts_
         An array to store values, For loop to get all values in between
 
 2 Establish a function to do the work
-    a. Inside you will need a loop to determine if the number needs to be swapped for a word
-        I. divisible by 3 will be changed into ping
-        II. divisible by 5 will be changed into pong
-        III. divisible by 15 will be changed into ping-pong
-        IV. If the value is not divisible then just input the same value into the array
-      Results will be pushed into an array
+    * a. Inside you will need a loop to determine if the number needs to be swapped for a word
+        * I. divisible by 3 will be changed into ping
+        * II. divisible by 5 will be changed into pong
+        * III. divisible by 15 will be changed into ping-pong
+        * IV. If the value is not divisible then just input the same value into the array
+      * Results will be pushed into an array
 
 3 Create a second loop to run through your array and push li tags to help with display.
 
 4 Establish user interface logic
-      Call the main function with placing the input into it. Assign it to a variable.
-      Call the final variable and show it on the interface
+      * Call the main function with placing the input into it. Assign it to a variable.
+      * Call the final variable and show it on the interface
+
+5 Make sure you split front and back end logic
 
 
 ## Setup/Installation Requirements
