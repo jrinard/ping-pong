@@ -1,77 +1,83 @@
-label{
-  font-size: 1.4em;
-}
-h2 {
-text-align: center;
+* {
+  font-family:helvetica, arial, sans-serif;
 }
 
-h1 {
-  color: #000;
-}
 #container {
 width: 100%;
 }
 #top {
   /*background-image: url("../img/img2.jpg");*/
-    /*background: linear-gradient(#618CBA, #3E6894, #222);*/
-    background-size: 100%;
-    background-color: #B3CF6B;
-    color:#000;
-    margin:10px 0px 0px 0px;
-    padding: 20px 15px;
-    background-size: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  /*background: linear-gradient(#618CBA, #3E6894, #222);*/
+  background-size: 100%;
+  background-color: #B3CF6B;
+  color:#000;
+  margin:10px 0px 0px 0px;
+  padding: 20px 15px;
+  background-size: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
   }
-#main {
-padding: 20px 15px;
-font-size: 14px;
-background-color: #fff;
-border-radius: 5px;
-margin-bottom: 10px;
-}
+  #main {
+  padding: 20px 15px;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  }
 #result {
   padding: 20px 15px;
   font-size: 1em;
   background-color: #fff;
   border-radius: 5px;
 }
+label{
+  font-size: 1.4em;
+}
+h2 {
+}
+h1 {
+  color: #000;
+}
 li {
   list-style: none;
 }
-
 body{
   background-color: #222;
 }
-
 input {
   margin-top: 10px;
 }
-
 .btn {
-  background-color: #4C9BD4;
-  margin-top: 10px;
+  background-color: #B3CF6B;
+  margin-left: 10px;
   color: #fff;
 }
 .btn:hover {
-  background-color: #6fafdc;
-  margin-top: 10px;
+background-color: #c2d888;6  /*6fafdc blue*/
+  margin-left: 10px;
   color: #fff;
+}
+/*Alters Focus on button and input*/
+button:focus{
+  outline: none !important;
+  border:1px solid #d1e2a6;
+}
+input:focus{
+  outline: none !important;
+  border:2px solid #d1e2a6;
 }
 .btn:active {
-  background-color: #888;
-  margin-top: 10px;
+  background-color: #000;
+  margin-left: 10px;
   color: #fff;
 }
-
 .btn:visited {
   background-color: #888;
-  margin-top: 10px;
+  margin-left: 10px;
   color: #fff;
 }
-
 a:visited {
   background-color: #888;
-  margin-top: 10px;
+  margin-left: 10px;
   color: #fff;
 }
