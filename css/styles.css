@@ -3,7 +3,7 @@
 }
 
 #container {
-width: 100%;
+  width: 100%;
 }
 #top {
   /*background-image: url("../img/img2.jpg");*/
@@ -33,10 +33,9 @@ width: 100%;
 label{
   font-size: 1.4em;
 }
-h2 {
-}
 h1 {
   color: #000;
+  font-weight: bold;
 }
 li {
   list-style: none;
@@ -53,7 +52,7 @@ input {
   color: #fff;
 }
 .btn:hover {
-background-color: #c2d888;6  /*6fafdc blue*/
+  background-color: #c2d888;6  /*6fafdc blue*/
   margin-left: 10px;
   color: #fff;
 }
@@ -80,4 +79,8 @@ a:visited {
   background-color: #888;
   margin-left: 10px;
   color: #fff;
+}
+.pull-right2 {
+  float: right !important;
+  margin: 10px 200px 10px 0px;
 }

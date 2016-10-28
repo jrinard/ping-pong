@@ -10,10 +10,13 @@ var newArray = [];
       } else if (index % 3 === 0){
         mainArray.push("Ping")
       } else {
-        mainArray.push(index);
+        mainArray.push(index); // converts number value to a string before it is pushed
       }
-  }
-  return mainArray;
+  }// For End
+  for (index = 0; index < mainArray.length; index ++){  // loop to push main array values into the html form
+    newArray.push("<li>" + mainArray[index] + "</li>")
+  }// second for end
+  return newArray;
 };// Function End
 
 // Front End
@@ -21,16 +24,7 @@ $(document).ready(function() {
   $("form#main").submit(function(event) {
     var userInput = parseInt($("input#num").val());
     var finalResult = counter(userInput); //assinging function and placing the input into it
-    // $("#result ul").html(finalResult); // calling function
-
-
-    $("#result ul").empty(); // removes previous content from ul
-
-    finalResult.forEach(function(result){
-      $("#result ul").append("<li>" + result + "</li>");
-
-
-    });
+    $("#result ul").html(finalResult); // calling function
 
     event.preventDefault();
   });
