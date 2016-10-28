@@ -33,12 +33,12 @@ _Specifically with Scripts_
         An array to store values, For loop to get all values in between
 
 2 Establish a function to do the work
-    * a. Inside you will need a loop to determine if the number needs to be swapped for a word
-        * I. divisible by 3 will be changed into ping
-        * II. divisible by 5 will be changed into pong
-        * III. divisible by 15 will be changed into ping-pong
+    * Inside you will need a loop to determine if the number needs to be swapped for a word
+        * I. Divisible by 3 will be changed into ping
+        * II. Divisible by 5 will be changed into pong
+        * III. Divisible by 15 will be changed into ping-pong
         * IV. If the value is not divisible then just input the same value into the array
-      * Results will be pushed into an array
+    * Results will be pushed into an array
 
 3 Create a second loop to run through your array and push li tags to help with display.
 
